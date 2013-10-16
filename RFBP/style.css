@@ -162,7 +162,7 @@ body, p {
     font-size: 14px;
     }
     .article p {
-        margin-bottom: 22px !important;    
+        margin-bottom: 22px;    
         }
 
 
@@ -347,6 +347,38 @@ body, p {
         color: #fff; opacity: 0.8;
         }
 
+
+/* More button */
+.moreless_fold, 
+.moreless_top, 
+.moreless_bottom { 
+    text-align: center;
+    margin: 10px 0 !important;
+    }
+
+.moreless_fold span, 
+.moreless_top span, 
+.moreless_bottom span { 
+    background: #0088cc; 
+    display: inline-block; 
+    padding: 4px 8px; 
+    color:#fff;  
+    }
+    /* More Content */
+    .moreless_content { border: 2px dashed #ccc; padding: 20px; }
+
+
+/* Gallery */
+.tt-gallery-box { 
+    background: #f9f9f9; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    border: 1px solid #eee; 
+    }
+    .galleryControl a img {
+        height: 18px !important;
+        width: auto;
+        }
 
 
 
