@@ -128,7 +128,6 @@ body { margin: 0; padding-top: 80px; }
         }
 
     
-    
 #footer {
     margin-top: 100px;
     padding: 30px 0 30px 0;
@@ -137,6 +136,8 @@ body { margin: 0; padding-top: 80px; }
     }
     .copyright { text-align: center; }
     .back-top { margin-top: 20px; }
+    
+    
     
     
 /* =============================================================================
@@ -387,7 +388,31 @@ body, p {
     }
 
 
+/* Trackback */
+.trackback .alert {
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 0 0 0 0;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 8px 10px 5px;
+    }
 
+
+.trackback-box {
+     list-style: none outside none;
+     padding: 0px;
+    }
+
+.trackback-box li {
+         border-top: 1px dashed #ddd;
+}
+
+    .trackback-box h4 {
+        font-size: 1rem; margin-bottom: 4px !important;
+        }
+    .trackback-box p {
+        font-size: 0.75rem;
+        }
 
 
 
