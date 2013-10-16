@@ -402,16 +402,15 @@ body, p {
      list-style: none outside none;
      padding: 0px;
     }
-
-.trackback-box li {
+    .trackback-box li {
          border-top: 1px dashed #ddd;
-}
-
+        }
     .trackback-box h4 {
         font-size: 1rem; margin-bottom: 4px !important;
         }
     .trackback-box p {
         font-size: 0.75rem;
+        color: #888;
         }
 
 
